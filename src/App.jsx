@@ -93,8 +93,8 @@ const App = () => {
         </div>
 
         <div className="results-container">
-          <h2>Resultados para {diceCount} {diceCount === 1 ? 'dado' : 'dados'}:</h2>
-          <ul>
+          <h2>Results for {diceCount} {diceCount === 1 ? 'dice' : 'dices'}:</h2>
+          <ul>    
             {DICE_THRESHOLDS.map((value) => (
               <li key={value}>
                 {ICONS[value]}+ : {counts[value]}
