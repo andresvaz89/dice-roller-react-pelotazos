@@ -79,10 +79,10 @@ button {
 button:hover {
   background-color: #b6c720;
 }
-
 button:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
+  background-color: #383d05;
+  color: #666; 
+  cursor: not-allowed; 
 }
 
 .roll-button {
@@ -114,10 +114,16 @@ button:disabled {
 
 .results-container ul {
   list-style: none;
-  padding: 0;
+  padding: 50px;
 }
 
 .results-container li {
   font-size: 18px;
   margin: 5px 0;
+}
+
+.icon-large {
+  font-size: 2rem; /* Tamaño del icono */
+  margin-right: 0.5rem; /* Espaciado entre el icono y el "+" */
+  vertical-align: middle; /* Alinea verticalmente con el texto */
 }
