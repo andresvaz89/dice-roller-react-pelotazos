@@ -61,8 +61,8 @@ const App = () => {
           ))}
         </div>
         <div className="results-container">
-          <h2>Contador de resultados:</h2>
-          <ul>
+        <h2>Contador de resultados de {diceCount} {diceCount === 1 ? ' dado:' : ' dados:'}</h2>
+        <ul>
             {[2, 3, 4, 5, 6].map((value) => (
               <li key={value}>
                 +{value}: {counts[value]}
